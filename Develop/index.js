@@ -1,10 +1,11 @@
+const markdown = require("./utils/generateMarkdown");
 const inquirer = require("inquirer");
 const fs = require("fs");
 const util = require("util");
 
 const writeFileAsync = util.promisify(fs.writeFile);
 
-function promptUser() {
+function promptUserREADME() {
   return inquirer.prompt([
     {
       type: "input",
@@ -61,46 +62,11 @@ function promptUser() {
   ]);
 }
 
-function generateREADME(answers) {
-  return `# ${answers.title}
-  ${answers.description}
-
-  ## Usages
-  ${answers.usages}
-
-  ## Contents
-  * [Installations](${answers.dependencies})
-  * [Usages](${answers.usages})
-  * [Contributions](${answers.contributions})
-  * [Test](${answers.test})
-  * [License](${answers.license})
-
-  ## To run
-  - Download or fork the application from [here](https://github.com/${answers.username}/${answers.title})
-
-  ## Test
-  ${answers.test}
-
-  ## Links
-  The following link demonstrates the deploying app:
-  (https://github.com/${answers.username}/${answers.title})
-
-  ## Author
-  ${answers.username}
-  - [github](https://github.com/${answers.username})
-
-  ## Contributing
-  ${answers.contributions}
-
-  ## License
-  - ${answers.license}`;
-}
-
 async function init() {
   try {
-    const answers = await promptUser();
+    const data = await promptUserREADME();
 
-    const readme = generateREADME(answers);
+    const readme = markdown(data);
 
     await writeFileAsync("README.md", readme);
     console.log("Successfully README");
