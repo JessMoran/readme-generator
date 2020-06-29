@@ -29,7 +29,7 @@ function promptUser() {
     {
       type: "checkbox",
       message: "What kind of licence should your project have?",
-      name: "licence",
+      name: "license",
       choices: [
         "MIT",
         "APACHE 2.0",
@@ -73,8 +73,7 @@ function generateREADME(answers) {
   * [Usages](${answers.usages})
   * [Contributions](${answers.contributions})
   * [Test](${answers.test})
-  * [Licence](${answers.licence})
-  * [Questions](${answers.questions})
+  * [License](${answers.license})
 
   ## To run
   - Download or fork the application from [here](https://github.com/${answers.username}/${answers.title})
@@ -93,8 +92,8 @@ function generateREADME(answers) {
   ## Contributing
   ${answers.contributions}
 
-  ## Licence
-  - ${answers.licence}`;
+  ## License
+  - ${answers.license}`;
 }
 
 async function init() {

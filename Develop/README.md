@@ -1,33 +1,33 @@
 # readme-generator
-  sadfadf
+  sahdfs
 
   ## Usages
-  sahbdhdf
+  hwkejqfh
 
   ## Contents
-  * [Installations]npm install
-  * [Usages]sahbdhdf
-  * [Contributions]jsdahfhds
-  * [Test]npm test
-  * [Licence]
-  * [Questions]undefined
+  * [Installations](ehfw)
+  * [Usages](hwkejqfh)
+  * [Contributions](wjkfh)
+  * [Test](jkewhf)
+  * [License]()
+  * [Questions](undefined)
 
   ## To run
-  - Download or fork the application from [here](https://github.com/jessmoran/readme-generator)
+  - Download or fork the application from [here](https://github.com/JessMoran/readme-generator)
 
   ## Test
-  npm test
+  jkewhf
 
   ## Links
   The following link demonstrates the deploying app:
-  (https://github.com/jessmoran/readme-generator)
+  (https://github.com/JessMoran/readme-generator)
 
   ## Author
-  jessmoran
-  - [github](https://github.com/jessmoran)
+  JessMoran
+  - [github](https://github.com/JessMoran)
 
   ## Contributing
-  jsdahfhds
+  wjkfh
 
-  ## Licence
+  ## License
   - 
