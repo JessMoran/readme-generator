@@ -48,8 +48,7 @@ function generateMarkdown(data) {
   - ${data.license}
 
   ## Questions
-  If you're having any problem or questions, please send me an email and I'll be happy to help.
-  (${data.address})
+  If you're having any problem or questions, please send me a [mail](mailto:${data.address}) and I'll be happy to help.
 
   ## Author
   ${data.username}

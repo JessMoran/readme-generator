@@ -46,8 +46,7 @@
   - NONE
 
   ## Questions
-  If you're having any problem or questions, please send me an email and I'll be happy to help.
-  (jessmoran.dev@gmail.com)
+  If you're having any problem or questions, please send me a [mail](mailto:jessmoran.dev@gmail.com)  and I'll be happy to help.
 
   ## Author
   JessMoran
