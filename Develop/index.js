@@ -28,6 +28,11 @@ function promptUserREADME() {
       name: "description"
     },
     {
+      type: "input",
+      message: "How to run?",
+      name: "run"
+    },
+    {
       type: "checkbox",
       message: "What kind of licence should your project have?",
       name: "license",

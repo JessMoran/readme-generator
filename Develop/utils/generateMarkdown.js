@@ -8,14 +8,17 @@ function generateMarkdown(data) {
   ${data.usages}
 
   ## Contents
-  * [Installations](${data.dependencies})
-  * [Usages](${data.usages})
-  * [Contributions](${data.contributions})
-  * [Test](${data.test})
-  * [License](${data.license})
+  * [Installations](#dependencies)
+  * [Usages](#usages)
+  * [Contributions](#contributions)
+  * [Test](#test)
+  * [License](#license)
 
   ## To run
-  - Download or fork the application from [here](https://github.com/${data.username}/${data.title})
+  - You can invoked with the following command:
+  \`\`\`
+  ${data.run}
+  \`\`\`
 
   ## Test
   ${data.test}
@@ -29,7 +32,7 @@ function generateMarkdown(data) {
   - [github](https://github.com/${data.username})
 
   ## Contributing
-  ${data.contributions}
+  ${data.contributions}from [here](https://github.com/${data.username}/${data.title})
 
   ## License
   - ${data.license}`
