@@ -1,5 +1,4 @@
-
-  # readme-generator
+  # Readme Generator
   This project's a command-line application that dynamically generates a professional README.md from a user's input. Following the Good README guide.
 
   ## Usages
@@ -8,30 +7,33 @@
   ## Contents
   * [Installations](#dependencies)
   * [Usages](#usages)
+  * [Demo](#links)
   * [Contributions](#contributions)
   * [Test](#test)
   * [License](#license)
 
   ## To run
-  - Download or fork the application from [here](https://github.com/JessMoran/readme-generator)
   - You can invoked with the following command:
   ```
   node index.js
   ```
 
   ## Test
+  ```
   npm run test
+  ```
 
   ## Links
-  The following link demonstrates the deploying app:
-  (https://github.com/JessMoran/readme-generator)
+  - The following link demonstrates the deploying app: [link](https://github.com/JessMoran/readme-generator)
+
+  - The following image demonstrates the application functionality: ![demo](./assets/readme-generator.gif)
 
   ## Author
   JessMoran
   - [github](https://github.com/JessMoran)
 
   ## Contributing
-  You can download or fork the application
+  Download or fork the application from [here](https://github.com/JessMoran/readme-generator)
 
   ## License
   - NONE

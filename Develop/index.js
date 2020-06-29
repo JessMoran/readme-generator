@@ -29,6 +29,16 @@ function promptUserREADME() {
     },
     {
       type: "input",
+      message: "What does the user need to know about using the repo?",
+      name: "usages"
+    },
+    {
+      type: "input",
+      message: "Please, write your file's demo name",
+      name: "demo"
+    },
+    {
+      type: "input",
       message: "How to run?",
       name: "run"
     },
@@ -53,16 +63,6 @@ function promptUserREADME() {
       type: "input",
       message: "What command should be run to run test?",
       name: "test"
-    },
-    {
-      type: "input",
-      message: "What does the user need to know about using the repo?",
-      name: "usages"
-    },
-    {
-      type: "input",
-      message: "What does the user need to know about contributing the repo?",
-      name: "contributions"
     },
   ]);
 }
