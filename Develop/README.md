@@ -12,8 +12,7 @@
   ## Contents
   The generated README includes the following sections:
 
-  * [Title](#title)
-   * [License](#license)
+  * [License](#license)
   * [Description](#description)
   * [Usage](#usages)
   * [Table of Contents](#contents)

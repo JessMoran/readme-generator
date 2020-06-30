@@ -23,14 +23,15 @@ node index.js
 
 * The generated README includes the following sections: 
 
-  * Title
-  * Description
-  * Table of Contents
-  * Installation
-  * Usage
-  * License
-  * Contributing
-  * Tests
-  * Questions
+    * License
+    * Description
+    * Usage
+    * Table of Contents
+    * Installation
+    * Tests
+    * Demo
+    * Contributing
+    * Questions
+    * Author
 
 * The generated README includes 1 badge that's specific to the repository.
